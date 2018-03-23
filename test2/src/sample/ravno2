@@ -1,0 +1,104 @@
+package sample;
+
+
+import javafx.event.ActionEvent;
+import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
+
+/**
+ * Created by Igor on 28.07.2017.
+ */
+public class ravno2 {
+
+}
+/*
+int arifm1;
+
+    boolean eq3 (String [] aaa){
+
+
+        //test_v.getItems().add(mainD.getText());
+        number1 = Float.parseFloat(aaa[0]);
+        number2 = Float.parseFloat(aaa[2]);
+        System.out.println(number1);
+        System.out.println(number2);
+
+        // iz massiva v char
+
+
+        switch (aaa[1]) {
+            case "-":
+                arifm1 = '-';
+                break;
+            case "+":
+                arifm1 = '+';
+                break;
+            case "*":
+                arifm1 = '*';
+                break;
+            case "/":
+                arifm1 = '/';
+                break;
+        }
+
+       // System.out.println(""+ new String(arifm1));
+         /*
+
+
+            if(aaa[1].equals("-")){
+                arifm1 ='-';
+            }else if (aaa[1].equals("+")){
+                arifm1 ='+';
+            }else if (aaa[1].equals("*")){
+                arifm1 ='*';
+            }else if (aaa[1].equals("/")){
+                arifm1 ='/';}
+*/
+     /*   switch (arifm1) {
+            case '+':
+               // mainD.setText(String.valueOf(number1 + number2));
+                //String answer;
+                ansver = (number1 + number2);
+
+                break;
+            case '-':
+              //  mainD.setText(String.valueOf(number1 - number2));
+                // history.setText(history.getText() +  mainD.getText());
+                ansver = (number1 - number2);
+                break;
+            case '/':
+                if (number1 == 0) {
+ifnul=true;
+                    System.out.println("stop");
+                    System.out.println(ifnul);
+                } else {
+                  //  mainD.setText(String.valueOf(number1 / number2));
+                    ansver = (number1 / number2);
+                    //history.setText(mainD.getText() + mainD.getText());
+                }
+                break;
+            case '*':
+               // mainD.setText(String.valueOf(number1 * number2));
+                //  history.setText(history.getText() + mainD.getText());
+                ansver = (number1 * number2);
+                break;
+
+
+        }
+
+//otvet v istoriju
+       // test_v.getItems().add(mainD.getText());
+       return ifnul;
+        //return ansver;
+//return ansver;
+    }
+
+void eq5(){
+    System.out.println(ansver);
+
+}
+
+
+
+}

@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.Tooltip?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="410.0" prefWidth="600.0" style="-fx-border-color: gray; -fx-background-radius: 10;" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <BorderPane fx:id="controller" prefHeight="600.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <top>
+            <HBox prefHeight="49.0" prefWidth="598.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Button fx:id="about" mnemonicParsing="false" onAction="#about" prefHeight="49.0" prefWidth="49.0" text="about">
+                     <HBox.margin>
+                        <Insets left="10.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button fx:id="help" mnemonicParsing="false" onAction="#help" prefHeight="49.0" prefWidth="49.0" text="?">
+                     <HBox.margin>
+                        <Insets left="10.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Pane prefHeight="53.0" prefWidth="295.0">
+                     <children>
+                        <Label fx:id="lab1" layoutX="17.0" layoutY="3.0" prefHeight="40.0" prefWidth="326.0">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+                  <Button fx:id="minimize1" mnemonicParsing="false" onAction="#minimize" prefHeight="47.0" prefWidth="56.0" text="min">
+                     <HBox.margin>
+                        <Insets left="60.0" />
+                     </HBox.margin></Button>
+                  <Button fx:id="Close1" mnemonicParsing="false" onAction="#closeProgramm" prefHeight="45.0" prefWidth="53.0" text="close">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="8.0" />
+                     </HBox.margin>
+                  </Button>
+               </children>
+            </HBox>
+         </top>
+         <bottom>
+            <Pane prefHeight="21.0" prefWidth="598.0" BorderPane.alignment="CENTER" />
+         </bottom>
+         <left>
+            <Pane prefHeight="287.0" prefWidth="130.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Button fx:id="b0" layoutX="9.0" layoutY="291.0" minWidth="-Infinity" mnemonicParsing="false" onAction="#button0" prefHeight="50.0" prefWidth="110.0" text="0">
+                     <font>
+                        <Font size="18.0" />
+                     </font></Button>
+                  <Button fx:id="b1" layoutX="9.0" layoutY="6.0" minWidth="-Infinity" mnemonicParsing="false" onAction="#button1" prefHeight="50.0" prefWidth="50.0" text="1">
+                     <font>
+                        <Font size="18.0" />
+                     </font></Button>
+                  <Button fx:id="b3" layoutX="9.0" layoutY="62.0" mnemonicParsing="false" onAction="#button3" prefHeight="50.0" prefWidth="50.0" text="3">
+                     <font>
+                        <Font size="18.0" />
+                     </font></Button>
+                  <Button fx:id="b2" layoutX="69.0" layoutY="6.0" minWidth="-Infinity" mnemonicParsing="false" onAction="#button2" prefHeight="50.0" prefWidth="50.0" text="2">
+                     <font>
+                        <Font size="18.0" />
+                     </font></Button>
+                  <Button fx:id="b4" layoutX="69.0" layoutY="62.0" mnemonicParsing="false" onAction="#button4" prefHeight="50.0" prefWidth="50.0" text="4">
+                     <font>
+                        <Font size="18.0" />
+                     </font></Button>
+                  <Button fx:id="b9" layoutX="9.0" layoutY="233.0" mnemonicParsing="false" onAction="#button9" prefHeight="50.0" prefWidth="50.0" text="9">
+                     <font>
+                        <Font size="18.0" />
+                     </font></Button>
+                  <Button fx:id="b7" layoutX="9.0" layoutY="176.0" mnemonicParsing="false" onAction="#button7" prefHeight="50.0" prefWidth="50.0" text="7">
+                     <font>
+                        <Font size="18.0" />
+                     </font></Button>
+                  <Button fx:id="b8" layoutX="69.0" layoutY="176.0" mnemonicParsing="false" onAction="#button8" prefHeight="50.0" prefWidth="50.0" text="8">
+                     <font>
+                        <Font size="18.0" />
+                     </font></Button>
+                  <Button fx:id="b5" layoutX="9.0" layoutY="120.0" mnemonicParsing="false" onAction="#button5" prefHeight="50.0" prefWidth="50.0" text="5">
+                     <font>
+                        <Font size="18.0" />
+                     </font></Button>
+                  <Button fx:id="p" layoutX="69.0" layoutY="233.0" mnemonicParsing="false" onAction="#buttonp" prefHeight="50.0" prefWidth="50.0" text=".">
+                     <font>
+                        <Font size="18.0" />
+                     </font></Button>
+                  <Button fx:id="b6" layoutX="69.0" layoutY="120.0" mnemonicParsing="false" onAction="#button6" prefHeight="50.0" prefWidth="50.0" text="6">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Button>
+               </children>
+            </Pane>
+         </left>
+         <center>
+            <Pane prefHeight="356.0" prefWidth="346.0" BorderPane.alignment="CENTER">
+               <children>
+                  <TextField fx:id="mainD" alignment="CENTER_RIGHT" layoutX="5.0" layoutY="6.0" prefHeight="29.0" prefWidth="330.0" promptText="0">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </TextField>
+                  <TextArea fx:id="zam" layoutX="4.0" layoutY="67.0" onMouseEntered="#loadZ" onMouseMoved="#saveZ" prefHeight="158.0" prefWidth="331.0" promptText="zametki...">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                     <tooltip>
+                        <Tooltip autoHide="true" text="савес аутоматицалы" />
+                     </tooltip></TextArea>
+                  <ListView fx:id="test_v" layoutX="5.0" layoutY="234.0" onMouseClicked="#copy_text" prefHeight="103.0" prefWidth="329.0" />
+               </children>
+            </Pane>
+         </center>
+         <right>
+            <Pane prefHeight="345.0" prefWidth="138.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Button fx:id="plusw" layoutX="16.0" layoutY="117.0" mnemonicParsing="false" onAction="#plusw" prefHeight="55.0" prefWidth="51.0" text="+">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="74.0" layoutY="62.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="54.0" text="/">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="bminus" layoutX="75.0" layoutY="118.0" mnemonicParsing="false" onAction="#bminus" prefHeight="53.0" prefWidth="53.0" text="-">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="14.0" layoutY="62.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="51.0" text="*">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="buttonsqr" layoutX="17.0" layoutY="230.0" mnemonicParsing="false" onAction="#bsqr" prefHeight="49.0" prefWidth="51.0" text="√">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="74.0" layoutY="176.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="54.0" text="X2">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="17.0" layoutY="176.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="51.0" text="\%">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="clear" layoutX="74.0" layoutY="4.0" mnemonicParsing="false" onAction="#clear" prefHeight="50.0" prefWidth="54.0" text="C">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="74.0" layoutY="229.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="54.0" text="X3">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="14.0" layoutY="4.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="54.0" text="&lt;-">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="ravno" layoutX="18.0" layoutY="287.0" mnemonicParsing="false" onAction="#ravno" prefHeight="51.0" prefWidth="111.0" text="=">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Button>
+               </children>
+            </Pane>
+         </right>
+      </BorderPane>
+   </children>
+   <padding>
+      <Insets top="6.0" />
+   </padding>
+</AnchorPane>
